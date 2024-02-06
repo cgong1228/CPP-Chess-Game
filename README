@@ -1,0 +1,20 @@
+
+# 2021 Group Final Chess Project
+
+This project originated from a summer programming class at JHU CS220. 
+
+This is a command line chess game written in C++. I worked with two other students on this project for our final assignment. I primarily contributed to the board and game files along with other smaller contributions to piece files.
+
+
+# Old Readme
+
+Team:
+Will Zhao, wzhao33
+Karina Lopez Zamora, klopezz1
+Clara Gong, cgong8
+
+Design:
+
+In Game.cpp we created a helper function, path_clear(), to help with the make_move() function. We also created a copy constructor to help with checking in_mate & in_stalemate. In Board.cpp we created a destructor as well as a copyBoard, clearBoard, and removePiece function. The destructor and the copy function were used in the in_mate and in_stalemate functions and the clear function was used to help load in a board.
+
+
